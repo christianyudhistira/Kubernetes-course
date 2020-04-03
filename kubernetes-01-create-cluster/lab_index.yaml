@@ -1,0 +1,16 @@
+---
+title: Create a Kubernetes cluster
+description: Create a Kubernetes cluster
+time: 5 minutes
+details:
+  intro:
+    text: intro.html
+  steps:
+  - title: task 1 step
+    text: step1.html
+  - title: task 2 step
+    text: step2.html
+  - title: task 3 step
+    text: step3.html
+  finish:
+    text: finish.html
