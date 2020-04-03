@@ -24,7 +24,7 @@ You can see all those APIs hosted through the proxy endpoint, now
 available at through http://localhost:8001. For example, we can query
 the version directly through the API using the ``curl`` command:
 
-``curl http://localhost:8001/version``\ {{execute T1}}
+``curl http://localhost:8001/version``\ {{execute}}
 
 The API server will automatically create an endpoint for each pod, based
 on the pod name, that is also accessible through the proxy.
