@@ -32,11 +32,12 @@ on the pod name, that is also accessible through the proxy.
 First we need to get the Pod name, and we'll store in the environment
 variable POD\_NAME:
 
-``export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}') echo Name of the Pod: $POD_NAME``\ {{execute}}
+``export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}') echo Name of the Pod: $POD_NAME``\ {{execute
+T1}}
 
 Now we can make an HTTP request to the application running in that pod:
 
-``curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/``\ {{execute}}
+``curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/``\ 
 
 The url is the route to the API of the Pod.
 
