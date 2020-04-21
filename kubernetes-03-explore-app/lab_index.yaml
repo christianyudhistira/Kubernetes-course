@@ -4,15 +4,15 @@ time: 5 minutes
 description: Explore your app in Kubernetes
 details:
   intro:
-    text: intro.html
+    text: intro.rst
   steps:
   - title: task 1 step
-    text: step1.html
+    text: step1.rst
   - title: task 2 step
-    text: step2.html
+    text: step2.rst
   - title: task 3 step
-    text: step3.html
+    text: step3.rst
   - title: task 4 step
-    text: step4.html
+    text: step4.rst
   finish:
-    text: finish.html
+    text: finish.rst
