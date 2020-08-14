@@ -1,7 +1,7 @@
 ---
 title: Kubernetes
 icon: fa-docker
-description: Learn how Kubernetes work. test private repo update
+description: Learn how Kubernetes work.
 labs:
   - title: Create a Kubernetes cluster
     description: Create a Kubernetes cluster. test private repo update
